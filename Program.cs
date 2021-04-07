@@ -19,11 +19,22 @@ namespace _1_PrimeiroProjeto
             double numero = 2.0;
             Console.WriteLine(numero);
 
-            if (numero > 1.0)
+            bool condicao = true;
+            bool condicao2 = false;
+            bool verdade = true;
+            string mensagem;
+
+            if (verdade == true)
+            {
+                mensagem = "nova mensagem";
+                Console.WriteLine(mensagem);
+            }
+
+            if (numero > 1.0 && condicao)
             {
                 Console.WriteLine("oi");
             }
-            else if (numero > 0.5)
+            else if (numero > 0.5 || condicao2)
             {
                 Console.WriteLine("oi2");
             }
